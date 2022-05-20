@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+.outer-box {
+    background-color: aliceblue;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.signup-box {
+    display: flex;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(207, 227, 244);
+    background-color: white;
+}
+
+.items {
+    width: 80%;
+}
+
+
+.signup-box .background-image {
+    background-image: url('./images/bg2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    border-radius: 10px 0 0 10px;
+}
+
+.background-image img {
+    width: 50%;
+    margin: 35% 0 0 25%;
+}
+
+.signup-box .signup-form {
+    padding: 5%;
+}
+
+.divider {
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+    border: 1px solid rgb(241, 241, 241);
+    margin-top: 5%;
+}
+
+.signup-form h1 {
+    font-weight: 600;
+    font-size: 2.3rem;
+}
+
+.signup-form h6 {
+    color: grey;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+.signup-form h5 {
+    color: rgb(66, 66, 66);
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 6%;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.social-login img {
+    height: 15%;
+    width: 15%;
+    margin-top: 5%;
+    margin-right: 5%;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+}
+
+#facebook {
+    border: none;
+}
+
+form {
+    margin-top: 5%
+}
+
+form label {
+    font-size: smaller;
+    color: rgb(88, 84, 84);
+    display: block;
+    margin-top: 2%;
+}
+
+form input[type=text], input[type=password]{
+    border: none;
+    border-bottom: 1px solid lightgray;
+    width: 80%;
+    padding: 1.5%;
+    display: block;
+}
+
+form input[type=text]:focus, input[type=password]:focus{
+    outline: none;
+    border-bottom: 2px solid rgba(68, 140, 234, 0.758);
+}
+
+form #checkbox {
+    display: inline;
+}
+
+form input[type=checkbox] {
+    margin-top: 5%;
+}
+
+form input[type=submit]{
+    display: block;
+    border-radius: 50px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(53, 53, 255);
+    border: none;
+    padding: 3%;
+    margin-top: 3%;
+    float: right;
+}
+
+form input[type=submit]:hover {
+    background-color: rgb(37, 37, 196);
+}
