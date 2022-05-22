@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid yellow; */
+}
+
+.outer {
+    font-family: 'Noto Sans', sans-serif;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+.credit-card {
+    border: 1px solid #3770C7;
+    border-radius: 20px;
+    flex-basis: 30%;
+    height: 35%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(rgba(43,154,101,100%),rgba(132,255,196,85%),rgba(52,36,238,0%)), linear-gradient(rgba(0,82,255,100%),rgba(51,71,255,77%));
+
+}
+
+form {
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+::placeholder {
+    color: black;
+}
+
+input {
+    background-color: rgba(0,0,0,0);
+    border: none;
+    
+    padding: 1% 1% 0 0%;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+#cardNumber {
+    width: 100%;
+    font-size: 2rem;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 1.2rem;
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+.detail {
+    margin-top: 4%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#date {
+    width: 29%;
+    font-size: 1.3rem;
+    letter-spacing: 0.3rem;
+}
+
+#cvc{
+    width: 20%;
+    font-size: 1.3rem;
+    letter-spacing: 0.3rem;
+}
+
+#name {
+    margin-top: 3%;
+    font-size: 1.2rem;
+}
+
+
+.detail-2{
+    
+}
+
+#submit {
+    padding: 3%;
+    width: 35%;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 1rem;
+    background-image: linear-gradient(rgba(55,99,118,100),rgba(47,219,198,0));
+    
+    border: 1px solid #1a3e78;
+    float: right;
+}
+
+#submit:hover {
+    background-image: linear-gradient(rgba(55,99,118,100),rgba(47,219,198,100));
+}
